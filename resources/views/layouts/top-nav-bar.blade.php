@@ -19,14 +19,14 @@
                     </form>
                 </div>
                 <div class="login-section col-lg-3 col-md-3 col-sm-3 col-3 d-flex" style="justify-content: center">
-                    <a href=""><button class="login">Login</button></a>
+                    <a href="login-form"><button class="login">Login</button></a>
                 </div>
             </div>
         </div>
         <div class="bottom-nav-bar-section">
             <div class="bottom-nav-bar-wrapper">
                 <div class="bottom-nav-class col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
-                    <a href="">Home</a>
+                    <a href="/home">Home</a>
                 </div>
                 <div class="bottom-nav-class col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
                     <a href="">Menu</a>
@@ -41,7 +41,7 @@
                     <a href="">About</a>
                 </div>
                 <div class="bottom-nav-class col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2" style="border:none">
-                    <a href="/contact-us">Contact</a>
+                    <a href="/contact">Contact</a>
                 </div>
             </div>
         </div>
