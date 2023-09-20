@@ -49,7 +49,7 @@
                 <div class="bottom-nav-bar-wrapper">
 
                     <ul class="bottom-nav-class" style="list-style: none;" id="bottomNav">
-                        <li><a href="">Home</a></li>
+                        <li><a href="/home">Home</a></li>
                         <li><a href="">Menu</a></li>
                         <li><a href="">Restaurant</a></li>
                         <li><a href="">Cart</a></li>
@@ -181,9 +181,9 @@
                 color: #ffa31a;
             }
 
-            .bottom-nav-class a.icon span {
-                padding: 0 5px;
-            }
+                .bottom-nav-class a.icon span {
+                    padding: 0 5px;
+                }
 
             .bottom-nav-class a.icon span:hover {
                 background-color: #ffa31a;
@@ -204,13 +204,13 @@
                     font-size: 0.9rem;
                 }
 
-                /* .bottom-nav-class li:not(:first-child) {
-                    display: none;
-                } */
-
-                .bottom-nav-class:not(.responsive) li:not(:first-child) {
+                .bottom-nav-class:not(.responsive) li {
                     display: none;
                 }
+
+                /* .bottom-nav-class:not(.responsive) li:not(:first-child) {
+                    display: none;
+                } */
 
                 .bottom-nav-class li {
                     border: none;
@@ -221,8 +221,8 @@
                     display: block !important;
                     text-align: right;
                     position: absolute;
-                    top: 11.6%;
-                    right: 0.5%;
+                    top: -3.3rem;
+                    right: 0.2rem;
                 }
 
 
@@ -231,6 +231,10 @@
                     display: block;
                     text-align: left;
                     margin-left: 2rem;
+                }
+
+                .bottom-nav-bar-section {
+                    background-color: transparent;
                 }
 
             }
@@ -247,7 +251,7 @@
                 .bottom-nav-class.responsive .icon-li {
                     position: absolute;
                     right: 0;
-                    top: 0;
+                    top: -3.5rem;
                     text-align: right;
                 }
 
@@ -265,6 +269,20 @@
                 .search-bar a {
                     font-size: 0.8rem;
                 }
+                .bottom-nav-class.responsive .icon-li {
+                    position: absolute;
+                    right: 0;
+                    top: -3.2rem;
+                }
+                .bottom-nav-class:not(.responsive) .icon-li {
+
+                    position: absolute;
+                    top: -3rem;
+                    right: 0.2rem;
+                }
+                .bottom-nav-class a.icon span {
+                padding: 0 2px;
+            }
 
                 .search-bar {
                     padding: none !important;
