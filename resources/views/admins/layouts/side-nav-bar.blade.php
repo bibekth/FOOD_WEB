@@ -202,6 +202,7 @@
             top: 0;
             background-color: #1e1817;
             overflow-y: scroll;
+            scrollbar-width: none;
         }
 
         .logo-web {

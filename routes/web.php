@@ -16,11 +16,8 @@ use App\Http\Controllers\RestaurantController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\SubCategoryController;
 use App\Http\Controllers\UserController;
-use App\Models\Restaurant;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
-use function Ramsey\Uuid\v1;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,10 +30,6 @@ use function Ramsey\Uuid\v1;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
@@ -45,39 +38,6 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/', function () {
     return redirect('/home');
 });
-// Route::get('/contact', function () {
-//     return view('dashboard.contact');
-// });
-// Route::get('/main',function(){
-//     return view('layouts.main');
-// });
-// Route::get('/home', function () {
-//     return view('dashboard.mid.home');
-// });
-// Route::get('/login-form', function () {
-//     return view('dashboard.login');
-// });
-// Route::get('/signup', function () {
-//     return view('dashboard.signup');
-// });
-// Route::get('/about', function () {
-//     return view('dashboard.about');
-// });
-// Route::get('/delivery-charges', function () {
-//     return  view('dashboard.mid.deliverycharge');
-// });
-// Route::get('/terms-condition', function () {
-//     return view('dashboard.mid.terms');
-// });
-// Route::get('/privacy', function () {
-//     return view('dashboard.mid.privacy');
-// });
-// Route::get('/how-to-order', function () {
-//     return view('dashboard.mid.how');
-// });
-// Route::get('/faq', function () {
-//     return view('dashboard.mid.faq');
-// });
 Route::get('/back', function () {
     return back();
 });
