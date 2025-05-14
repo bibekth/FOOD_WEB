@@ -56,7 +56,7 @@
                 </div>
                 <div class="footer-copyright-section d-flex justify-content-center pt-5">
                     <div class="copyright-content">
-                        <span class="copy-right" style="font-size: 10px;">&copy; {{ today()->format('Y') }} FoodWeb Pvt. Ltd. All Rights Reserved</span>
+                        <span class="copy-right fs-6" style="">&copy; {{ today()->format('Y') }} FoodWeb Pvt. Ltd. All Rights Reserved</span>
                     </div>
                 </div>
             </div>
